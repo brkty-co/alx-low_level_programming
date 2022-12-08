@@ -1,0 +1,1 @@
+this project holds files for basic c exersises
