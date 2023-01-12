@@ -2,11 +2,9 @@
 #include <stdlib.h>
 /**
  * string_nconcat - concatenates two strings
- *
  * @s1: first string
  * @s2: second string
  * @n: the number of bytes to include of @s2
- *
  * Return: newly allocated space in memory;
  * NULL if the function fails
  */
@@ -27,8 +25,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 	while (s1[i])
 		i++;
+	
 	while (s2[j])
 		j++;
+	
 	if (j > n)
 		j = n;
 
@@ -40,6 +40,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (p = 0; p < i; p++)
 		ar[k++] = s1[p];
+	
 	for (m = 0; m < j; m++)
 		ar[k++] = s2[m];
 
