@@ -1,13 +1,13 @@
-#include "function_pointers.h"
+ #include "function_pointers.h"
 
 /**
- * array_iterator -
- * @array: parametr 1
- * @size: parameter 1 size
- * @action: action function
+ * array_iterator - ...
+ * @array: ...
+ * @size: ...
+ * @action: ...
+ *
  * Return: ...
  */
-
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i = 0;
@@ -20,4 +20,4 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 			i++;
 		}
 	}
-} 
+}
