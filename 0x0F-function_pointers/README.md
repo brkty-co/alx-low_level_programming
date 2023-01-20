@@ -1,0 +1,1 @@
+a repo for exersises on c function pointers 
