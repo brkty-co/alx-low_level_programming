@@ -1,4 +1,4 @@
 #!/bin/bash
-cat *.c >> liball.c
-gcc -fPIC -c liball.c
-gcc -shared -o liball.so liball.o
+gcc -c -Wall -Werror -fpic *.c
+gcc -shared -o liball.so *.o
+
